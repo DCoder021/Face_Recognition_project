@@ -1,5 +1,5 @@
 import cv2
-face_cap = cv2.CascadeClassifier("C:/Users/Sudip/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/Python310/site-packages/cv2/data/haarcascade_frontalface_default.xml")
+face_cap = cv2.CascadeClassifier("/haarcascade_frontalface_default.xml")
 video_cap = cv2.VideoCapture(0)
 while True :
     ret , video_data = video_cap.read()
